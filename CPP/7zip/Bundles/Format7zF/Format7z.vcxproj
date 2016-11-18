@@ -802,7 +802,6 @@
     <ClCompile Include="..\..\Archive\ApmHandler.cpp" />
     <ClCompile Include="..\..\Archive\ArchiveExports.cpp" />
     <ClCompile Include="..\..\Archive\ArHandler.cpp" />
-    <ClCompile Include="..\..\Archive\ArjHandler.cpp" />
     <ClCompile Include="..\..\Archive\ComHandler.cpp" />
     <ClCompile Include="..\..\Archive\Common\CoderMixer2.cpp" />
     <ClCompile Include="..\..\Archive\Common\DummyOutStream.cpp" />
@@ -825,7 +824,6 @@
     <ClCompile Include="..\..\Archive\GzHandler.cpp" />
     <ClCompile Include="..\..\Archive\HandlerCont.cpp" />
     <ClCompile Include="..\..\Archive\IhexHandler.cpp" />
-    <ClCompile Include="..\..\Archive\LzhHandler.cpp" />
     <ClCompile Include="..\..\Archive\MachoHandler.cpp" />
     <ClCompile Include="..\..\Archive\MbrHandler.cpp" />
     <ClCompile Include="..\..\Archive\MslzHandler.cpp" />
@@ -850,10 +848,8 @@
     <ClCompile Include="..\..\Archive\Tar\TarOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarRegister.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarUpdate.cpp" />
-    <ClCompile Include="..\..\Archive\UefiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VdiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VhdHandler.cpp" />
-    <ClCompile Include="..\..\Archive\ZHandler.cpp" />
     <ClCompile Include="..\..\Common\CreateCoder.cpp" />
     <ClCompile Include="..\..\Common\CWrappers.cpp" />
     <ClCompile Include="..\..\Common\FilterCoder.cpp" />
@@ -899,7 +895,6 @@
     <ClCompile Include="..\..\Compress\DeltaFilter.cpp" />
     <ClCompile Include="..\..\Compress\ImplodeDecoder.cpp" />
     <ClCompile Include="..\..\Compress\ImplodeHuffmanDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\LzhDecoder.cpp" />
     <ClCompile Include="..\..\Compress\LzmsDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
@@ -926,7 +921,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\Compress\ZDecoder.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -1057,11 +1051,9 @@
     <ClInclude Include="..\..\Compress\BranchMisc.h" />
     <ClInclude Include="..\..\Compress\CopyCoder.h" />
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h" />
-    <ClInclude Include="..\..\Compress\LzhDecoder.h" />
     <ClInclude Include="..\..\Compress\LzmsDecoder.h" />
     <ClInclude Include="..\..\Compress\LzOutWindow.h" />
     <ClInclude Include="..\..\Compress\XpressDecoder.h" />
-    <ClInclude Include="..\..\Compress\ZDecoder.h" />
     <ClInclude Include="..\..\ICoder.h" />
     <ClInclude Include="..\..\IDecl.h" />
     <ClInclude Include="..\..\IPassword.h" />

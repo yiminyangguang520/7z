@@ -152,9 +152,6 @@
     <ClCompile Include="..\..\Compress\DeltaFilter.cpp">
       <Filter>Compress\7z Compress</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Compress\LzhDecoder.cpp">
-      <Filter>Compress</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Compress\LzmsDecoder.cpp">
       <Filter>Compress</Filter>
     </ClCompile>
@@ -162,9 +159,6 @@
       <Filter>Compress</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Compress\XpressDecoder.cpp">
-      <Filter>Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\ZDecoder.cpp">
       <Filter>Compress</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Common\CreateCoder.cpp">
@@ -398,9 +392,6 @@
     <ClCompile Include="..\..\Archive\ArHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\ArjHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\ComHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -434,9 +425,6 @@
     <ClCompile Include="..\..\Archive\IhexHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\LzhHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\MachoHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -467,16 +455,10 @@
     <ClCompile Include="..\..\Archive\SplitHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\UefiHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\VdiHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\VhdHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\ZHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Windows\FileDir.cpp">
@@ -617,9 +599,6 @@
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h">
       <Filter>Compress</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Compress\LzhDecoder.h">
-      <Filter>Compress</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Compress\LzmsDecoder.h">
       <Filter>Compress</Filter>
     </ClInclude>
@@ -627,9 +606,6 @@
       <Filter>Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\XpressDecoder.h">
-      <Filter>Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\ZDecoder.h">
       <Filter>Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Common\CreateCoder.h">
