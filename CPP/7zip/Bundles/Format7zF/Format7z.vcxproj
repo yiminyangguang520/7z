@@ -822,20 +822,6 @@
     <ClCompile Include="..\..\..\Windows\Synchronization.cpp" />
     <ClCompile Include="..\..\..\Windows\System.cpp" />
     <ClCompile Include="..\..\..\Windows\TimeUtils.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zCompressionMode.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zDecode.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zEncode.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zExtract.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zFolderInStream.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zHandler.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zHandlerOut.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zHeader.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zIn.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zOut.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zProperties.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zRegister.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zSpecStream.cpp" />
-    <ClCompile Include="..\..\Archive\7z\7zUpdate.cpp" />
     <ClCompile Include="..\..\Archive\ApmHandler.cpp" />
     <ClCompile Include="..\..\Archive\ArchiveExports.cpp" />
     <ClCompile Include="..\..\Archive\ArHandler.cpp" />
@@ -979,7 +965,6 @@
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\Compress\PpmdRegister.cpp" />
-    <ClCompile Include="..\..\Compress\PpmdZip.cpp" />
     <ClCompile Include="..\..\Compress\QuantumDecoder.cpp" />
     <ClCompile Include="..\..\Compress\XpressDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
@@ -1071,19 +1056,6 @@
     <ClInclude Include="..\..\..\Windows\System.h" />
     <ClInclude Include="..\..\..\Windows\Thread.h" />
     <ClInclude Include="..\..\..\Windows\TimeUtils.h" />
-    <ClInclude Include="..\..\Archive\7z\7zCompressionMode.h" />
-    <ClInclude Include="..\..\Archive\7z\7zDecode.h" />
-    <ClInclude Include="..\..\Archive\7z\7zEncode.h" />
-    <ClInclude Include="..\..\Archive\7z\7zFolderInStream.h" />
-    <ClInclude Include="..\..\Archive\7z\7zHandler.h" />
-    <ClInclude Include="..\..\Archive\7z\7zHeader.h" />
-    <ClInclude Include="..\..\Archive\7z\7zIn.h" />
-    <ClInclude Include="..\..\Archive\7z\7zItem.h" />
-    <ClInclude Include="..\..\Archive\7z\7zOut.h" />
-    <ClInclude Include="..\..\Archive\7z\7zProperties.h" />
-    <ClInclude Include="..\..\Archive\7z\7zSpecStream.h" />
-    <ClInclude Include="..\..\Archive\7z\7zUpdate.h" />
-    <ClInclude Include="..\..\Archive\7z\7zUpdateItem.h" />
     <ClInclude Include="..\..\Archive\Common\CoderMixer2.h" />
     <ClInclude Include="..\..\Archive\Common\DummyOutStream.h" />
     <ClInclude Include="..\..\Archive\Common\FindSignature.h" />
