@@ -16,9 +16,6 @@
     <Filter Include="Compress\Bit Coder">
       <UniqueIdentifier>{a0efeee8-ce95-4ca9-97aa-86d9f046f086}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Compress\BZip2 Compress">
-      <UniqueIdentifier>{9863534f-fdea-44dc-8078-6591346eb8f7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Compress\7z Compress">
       <UniqueIdentifier>{ab49ca93-47c0-42f0-a274-6b80b28561d9}</UniqueIdentifier>
     </Filter>
@@ -199,18 +196,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Compress\BitlDecoder.cpp">
       <Filter>Compress\Bit Coder</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\BZip2Crc.cpp">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\BZip2Decoder.cpp">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\BZip2Encoder.cpp">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\BZip2Register.cpp">
-      <Filter>Compress\BZip2 Compress</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Compress\Bcj2Coder.cpp">
       <Filter>Compress\7z Compress</Filter>
@@ -602,9 +587,6 @@
     <ClCompile Include="..\..\Archive\ArjHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\Bz2Handler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\ComHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -615,9 +597,6 @@
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\DeflateProps.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\DmgHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\ElfHandler.cpp">
@@ -701,9 +680,6 @@
     <ClCompile Include="..\..\Archive\VmdkHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\XarHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\XzHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -737,6 +713,24 @@
     <ClCompile Include="..\..\..\Windows\TimeUtils.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Compress\Deflate64Register.cpp" />
+    <ClCompile Include="..\..\Compress\DeflateDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\DeflateEncoder.cpp" />
+    <ClCompile Include="..\..\Compress\DeflateRegister.cpp" />
+    <ClCompile Include="..\..\Compress\ImplodeDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\ImplodeHuffmanDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\LzxDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\PpmdZip.cpp" />
+    <ClCompile Include="..\..\Compress\QuantumDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\Rar1Decoder.cpp" />
+    <ClCompile Include="..\..\Compress\Rar2Decoder.cpp" />
+    <ClCompile Include="..\..\Compress\Rar3Decoder.cpp" />
+    <ClCompile Include="..\..\Compress\Rar3Vm.cpp" />
+    <ClCompile Include="..\..\Compress\Rar5Decoder.cpp" />
+    <ClCompile Include="..\..\Compress\RarCodecsRegister.cpp" />
+    <ClCompile Include="..\..\Compress\ShrinkDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\ZlibDecoder.cpp" />
+    <ClCompile Include="..\..\Compress\ZlibEncoder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc">
@@ -824,21 +818,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Compress\BitmEncoder.h">
       <Filter>Compress\Bit Coder</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\BZip2Const.h">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\BZip2Crc.h">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\BZip2Decoder.h">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\BZip2Encoder.h">
-      <Filter>Compress\BZip2 Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\Mtf8.h">
-      <Filter>Compress\BZip2 Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\Bcj2Coder.h">
       <Filter>Compress\7z Compress</Filter>
