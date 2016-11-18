@@ -19,9 +19,6 @@
     <Filter Include="Compress\7z Compress">
       <UniqueIdentifier>{ab49ca93-47c0-42f0-a274-6b80b28561d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Crypto">
-      <UniqueIdentifier>{8caddd58-3362-4bc4-90bd-e60aa916c125}</UniqueIdentifier>
-    </Filter>
     <Filter Include="7zip Common">
       <UniqueIdentifier>{dec1ed4d-0edf-40e4-85d2-118e161c11ef}</UniqueIdentifier>
     </Filter>
@@ -268,48 +265,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Compress\ZDecoder.cpp">
       <Filter>Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\7zAes.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\7zAesRegister.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\HmacSha1.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\HmacSha256.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\MyAes.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\MyAesReg.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\Pbkdf2HmacSha1.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\RandGen.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\Rar20Crypto.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\Rar5Aes.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\RarAes.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\WzAes.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\ZipCrypto.cpp">
-      <Filter>Crypto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\ZipStrong.cpp">
-      <Filter>Crypto</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Common\CreateCoder.cpp">
       <Filter>7zip Common</Filter>
@@ -866,45 +821,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Compress\ZDecoder.h">
       <Filter>Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\7zAes.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\HmacSha1.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\HmacSha256.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\MyAes.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\Pbkdf2HmacSha1.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\RandGen.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\Rar20Crypto.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\Rar5Aes.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\RarAes.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\Sha1Cls.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\WzAes.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\ZipCrypto.h">
-      <Filter>Crypto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Crypto\ZipStrong.h">
-      <Filter>Crypto</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Common\CreateCoder.h">
       <Filter>7zip Common</Filter>

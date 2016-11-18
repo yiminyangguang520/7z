@@ -1018,62 +1018,6 @@
     <ClCompile Include="..\..\Compress\ZDecoder.cpp" />
     <ClCompile Include="..\..\Compress\ZlibDecoder.cpp" />
     <ClCompile Include="..\..\Compress\ZlibEncoder.cpp" />
-    <ClCompile Include="..\..\Crypto\7zAes.cpp" />
-    <ClCompile Include="..\..\Crypto\7zAesRegister.cpp" />
-    <ClCompile Include="..\..\Crypto\HmacSha1.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\HmacSha256.cpp" />
-    <ClCompile Include="..\..\Crypto\MyAes.cpp" />
-    <ClCompile Include="..\..\Crypto\MyAesReg.cpp" />
-    <ClCompile Include="..\..\Crypto\Pbkdf2HmacSha1.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\RandGen.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\Rar20Crypto.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\Rar5Aes.cpp" />
-    <ClCompile Include="..\..\Crypto\RarAes.cpp" />
-    <ClCompile Include="..\..\Crypto\WzAes.cpp" />
-    <ClCompile Include="..\..\Crypto\ZipCrypto.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Crypto\ZipStrong.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -1229,19 +1173,6 @@
     <ClInclude Include="..\..\Compress\PpmdEncoder.h" />
     <ClInclude Include="..\..\Compress\XpressDecoder.h" />
     <ClInclude Include="..\..\Compress\ZDecoder.h" />
-    <ClInclude Include="..\..\Crypto\7zAes.h" />
-    <ClInclude Include="..\..\Crypto\HmacSha1.h" />
-    <ClInclude Include="..\..\Crypto\HmacSha256.h" />
-    <ClInclude Include="..\..\Crypto\MyAes.h" />
-    <ClInclude Include="..\..\Crypto\Pbkdf2HmacSha1.h" />
-    <ClInclude Include="..\..\Crypto\RandGen.h" />
-    <ClInclude Include="..\..\Crypto\Rar20Crypto.h" />
-    <ClInclude Include="..\..\Crypto\Rar5Aes.h" />
-    <ClInclude Include="..\..\Crypto\RarAes.h" />
-    <ClInclude Include="..\..\Crypto\Sha1Cls.h" />
-    <ClInclude Include="..\..\Crypto\WzAes.h" />
-    <ClInclude Include="..\..\Crypto\ZipCrypto.h" />
-    <ClInclude Include="..\..\Crypto\ZipStrong.h" />
     <ClInclude Include="..\..\ICoder.h" />
     <ClInclude Include="..\..\IDecl.h" />
     <ClInclude Include="..\..\IPassword.h" />
