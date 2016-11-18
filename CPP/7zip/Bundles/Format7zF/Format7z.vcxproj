@@ -830,17 +830,8 @@
     <ClCompile Include="..\..\Archive\MubHandler.cpp" />
     <ClCompile Include="..\..\Archive\NtfsHandler.cpp" />
     <ClCompile Include="..\..\Archive\PeHandler.cpp" />
-    <ClCompile Include="..\..\Archive\PpmdHandler.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\QcowHandler.cpp" />
     <ClCompile Include="..\..\Archive\RpmHandler.cpp" />
-    <ClCompile Include="..\..\Archive\SplitHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandlerOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHeader.cpp" />
@@ -849,7 +840,6 @@
     <ClCompile Include="..\..\Archive\Tar\TarRegister.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarUpdate.cpp" />
     <ClCompile Include="..\..\Archive\VdiHandler.cpp" />
-    <ClCompile Include="..\..\Archive\VhdHandler.cpp" />
     <ClCompile Include="..\..\Common\CreateCoder.cpp" />
     <ClCompile Include="..\..\Common\CWrappers.cpp" />
     <ClCompile Include="..\..\Common\FilterCoder.cpp" />
