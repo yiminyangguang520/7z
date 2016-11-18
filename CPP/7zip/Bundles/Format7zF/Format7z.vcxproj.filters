@@ -152,9 +152,6 @@
     <ClCompile Include="..\..\Compress\DeltaFilter.cpp">
       <Filter>Compress\7z Compress</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Compress\LzmsDecoder.cpp">
-      <Filter>Compress</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Compress\LzOutWindow.cpp">
       <Filter>Compress</Filter>
     </ClCompile>
@@ -386,18 +383,6 @@
     <ClCompile Include="..\..\Archive\Tar\TarUpdate.cpp">
       <Filter>Archive\Tar</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\ApmHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\ArHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\ComHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\CpioHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\DeflateProps.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -552,9 +537,6 @@
       <Filter>Compress\7z Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h">
-      <Filter>Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\LzmsDecoder.h">
       <Filter>Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\LzOutWindow.h">

@@ -799,10 +799,7 @@
     <ClCompile Include="..\..\..\Windows\Synchronization.cpp" />
     <ClCompile Include="..\..\..\Windows\System.cpp" />
     <ClCompile Include="..\..\..\Windows\TimeUtils.cpp" />
-    <ClCompile Include="..\..\Archive\ApmHandler.cpp" />
     <ClCompile Include="..\..\Archive\ArchiveExports.cpp" />
-    <ClCompile Include="..\..\Archive\ArHandler.cpp" />
-    <ClCompile Include="..\..\Archive\ComHandler.cpp" />
     <ClCompile Include="..\..\Archive\Common\CoderMixer2.cpp" />
     <ClCompile Include="..\..\Archive\Common\DummyOutStream.cpp" />
     <ClCompile Include="..\..\Archive\Common\FindSignature.cpp" />
@@ -813,7 +810,6 @@
     <ClCompile Include="..\..\Archive\Common\OutStreamWithCRC.cpp" />
     <ClCompile Include="..\..\Archive\Common\OutStreamWithSha1.cpp" />
     <ClCompile Include="..\..\Archive\Common\ParseProperties.cpp" />
-    <ClCompile Include="..\..\Archive\CpioHandler.cpp" />
     <ClCompile Include="..\..\Archive\DeflateProps.cpp" />
     <ClCompile Include="..\..\Archive\DllExports2.cpp" />
     <ClCompile Include="..\..\Archive\ElfHandler.cpp" />
@@ -873,14 +869,6 @@
     <ClCompile Include="..\..\Compress\DeltaFilter.cpp" />
     <ClCompile Include="..\..\Compress\ImplodeDecoder.cpp" />
     <ClCompile Include="..\..\Compress\ImplodeHuffmanDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\LzmsDecoder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="..\..\Compress\LzOutWindow.cpp" />
     <ClCompile Include="..\..\Compress\LzxDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
@@ -1029,7 +1017,6 @@
     <ClInclude Include="..\..\Compress\BranchMisc.h" />
     <ClInclude Include="..\..\Compress\CopyCoder.h" />
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h" />
-    <ClInclude Include="..\..\Compress\LzmsDecoder.h" />
     <ClInclude Include="..\..\Compress\LzOutWindow.h" />
     <ClInclude Include="..\..\Compress\XpressDecoder.h" />
     <ClInclude Include="..\..\ICoder.h" />
