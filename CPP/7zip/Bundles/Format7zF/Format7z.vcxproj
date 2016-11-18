@@ -844,20 +844,7 @@
     <ClCompile Include="..\..\Common\StreamUtils.cpp" />
     <ClCompile Include="..\..\Common\UniqBlocks.cpp" />
     <ClCompile Include="..\..\Common\VirtThread.cpp" />
-    <ClCompile Include="..\..\Compress\Bcj2Coder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\Bcj2Register.cpp" />
-    <ClCompile Include="..\..\Compress\BcjCoder.cpp" />
-    <ClCompile Include="..\..\Compress\BcjRegister.cpp" />
     <ClCompile Include="..\..\Compress\BitlDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\BranchMisc.cpp" />
-    <ClCompile Include="..\..\Compress\BranchRegister.cpp" />
     <ClCompile Include="..\..\Compress\ByteSwap.cpp" />
     <ClCompile Include="..\..\Compress\CodecExports.cpp" />
     <ClCompile Include="..\..\Compress\CopyCoder.cpp" />
@@ -1008,13 +995,10 @@
     <ClInclude Include="..\..\Common\StreamUtils.h" />
     <ClInclude Include="..\..\Common\UniqBlocks.h" />
     <ClInclude Include="..\..\Common\VirtThread.h" />
-    <ClInclude Include="..\..\Compress\Bcj2Coder.h" />
-    <ClInclude Include="..\..\Compress\BcjCoder.h" />
     <ClInclude Include="..\..\Compress\BitlDecoder.h" />
     <ClInclude Include="..\..\Compress\BitlEncoder.h" />
     <ClInclude Include="..\..\Compress\BitmDecoder.h" />
     <ClInclude Include="..\..\Compress\BitmEncoder.h" />
-    <ClInclude Include="..\..\Compress\BranchMisc.h" />
     <ClInclude Include="..\..\Compress\CopyCoder.h" />
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h" />
     <ClInclude Include="..\..\Compress\LzOutWindow.h" />
