@@ -48,79 +48,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\Archive\Icons\7z.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\arj.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\bz2.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\cab.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\cpio.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\deb.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\dmg.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\fat.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
     <Image Include="..\..\Archive\Icons\gz.ico">
       <Filter>Spec\Icons</Filter>
     </Image>
-    <Image Include="..\..\Archive\Icons\hfs.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\iso.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\lzh.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\lzma.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\ntfs.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\rar.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\rpm.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\split.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\squashfs.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
     <Image Include="..\..\Archive\Icons\tar.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\vhd.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\wim.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\xar.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\xz.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\z.ico">
-      <Filter>Spec\Icons</Filter>
-    </Image>
-    <Image Include="..\..\Archive\Icons\zip.ico">
       <Filter>Spec\Icons</Filter>
     </Image>
   </ItemGroup>

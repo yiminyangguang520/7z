@@ -287,31 +287,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Image Include="..\..\Archive\Icons\7z.ico" />
-    <Image Include="..\..\Archive\Icons\arj.ico" />
-    <Image Include="..\..\Archive\Icons\bz2.ico" />
-    <Image Include="..\..\Archive\Icons\cab.ico" />
-    <Image Include="..\..\Archive\Icons\cpio.ico" />
-    <Image Include="..\..\Archive\Icons\deb.ico" />
-    <Image Include="..\..\Archive\Icons\dmg.ico" />
-    <Image Include="..\..\Archive\Icons\fat.ico" />
     <Image Include="..\..\Archive\Icons\gz.ico" />
-    <Image Include="..\..\Archive\Icons\hfs.ico" />
-    <Image Include="..\..\Archive\Icons\iso.ico" />
-    <Image Include="..\..\Archive\Icons\lzh.ico" />
-    <Image Include="..\..\Archive\Icons\lzma.ico" />
-    <Image Include="..\..\Archive\Icons\ntfs.ico" />
-    <Image Include="..\..\Archive\Icons\rar.ico" />
-    <Image Include="..\..\Archive\Icons\rpm.ico" />
-    <Image Include="..\..\Archive\Icons\split.ico" />
-    <Image Include="..\..\Archive\Icons\squashfs.ico" />
     <Image Include="..\..\Archive\Icons\tar.ico" />
-    <Image Include="..\..\Archive\Icons\vhd.ico" />
-    <Image Include="..\..\Archive\Icons\wim.ico" />
-    <Image Include="..\..\Archive\Icons\xar.ico" />
-    <Image Include="..\..\Archive\Icons\xz.ico" />
-    <Image Include="..\..\Archive\Icons\z.ico" />
-    <Image Include="..\..\Archive\Icons\zip.ico" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\Asm\x86\7zAsm.asm" />
