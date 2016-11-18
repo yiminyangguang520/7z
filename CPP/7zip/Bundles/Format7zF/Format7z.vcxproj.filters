@@ -548,9 +548,6 @@
     <ClCompile Include="..\..\Archive\CpioHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\CramfsHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\DeflateProps.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -573,9 +570,6 @@
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\HandlerCont.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\HfsHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\IhexHandler.cpp">
@@ -617,12 +611,6 @@
     <ClCompile Include="..\..\Archive\SplitHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\SquashfsHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\SwfHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\UefiHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -630,9 +618,6 @@
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\VhdHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\VmdkHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\XzHandler.cpp">
@@ -677,15 +662,6 @@
     <ClCompile Include="..\..\Compress\LzxDecoder.cpp" />
     <ClCompile Include="..\..\Compress\PpmdZip.cpp" />
     <ClCompile Include="..\..\Compress\QuantumDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar1Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar2Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar3Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar3Vm.cpp" />
-    <ClCompile Include="..\..\Compress\Rar5Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\RarCodecsRegister.cpp" />
-    <ClCompile Include="..\..\Compress\ShrinkDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\ZlibDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\ZlibEncoder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc">

@@ -852,7 +852,6 @@
     <ClCompile Include="..\..\Archive\Common\OutStreamWithSha1.cpp" />
     <ClCompile Include="..\..\Archive\Common\ParseProperties.cpp" />
     <ClCompile Include="..\..\Archive\CpioHandler.cpp" />
-    <ClCompile Include="..\..\Archive\CramfsHandler.cpp" />
     <ClCompile Include="..\..\Archive\DeflateProps.cpp" />
     <ClCompile Include="..\..\Archive\DllExports2.cpp" />
     <ClCompile Include="..\..\Archive\ElfHandler.cpp" />
@@ -862,7 +861,6 @@
     <ClCompile Include="..\..\Archive\GptHandler.cpp" />
     <ClCompile Include="..\..\Archive\GzHandler.cpp" />
     <ClCompile Include="..\..\Archive\HandlerCont.cpp" />
-    <ClCompile Include="..\..\Archive\HfsHandler.cpp" />
     <ClCompile Include="..\..\Archive\IhexHandler.cpp" />
     <ClCompile Include="..\..\Archive\LzhHandler.cpp" />
     <ClCompile Include="..\..\Archive\LzmaHandler.cpp" />
@@ -883,8 +881,6 @@
     <ClCompile Include="..\..\Archive\QcowHandler.cpp" />
     <ClCompile Include="..\..\Archive\RpmHandler.cpp" />
     <ClCompile Include="..\..\Archive\SplitHandler.cpp" />
-    <ClCompile Include="..\..\Archive\SquashfsHandler.cpp" />
-    <ClCompile Include="..\..\Archive\SwfHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandlerOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHeader.cpp" />
@@ -895,7 +891,6 @@
     <ClCompile Include="..\..\Archive\UefiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VdiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VhdHandler.cpp" />
-    <ClCompile Include="..\..\Archive\VmdkHandler.cpp" />
     <ClCompile Include="..\..\Archive\XzHandler.cpp" />
     <ClCompile Include="..\..\Archive\ZHandler.cpp" />
     <ClCompile Include="..\..\Common\CreateCoder.cpp" />
@@ -986,27 +981,6 @@
     <ClCompile Include="..\..\Compress\PpmdRegister.cpp" />
     <ClCompile Include="..\..\Compress\PpmdZip.cpp" />
     <ClCompile Include="..\..\Compress\QuantumDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar1Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar2Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Rar3Decoder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\Rar3Vm.cpp" />
-    <ClCompile Include="..\..\Compress\Rar5Decoder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\RarCodecsRegister.cpp" />
-    <ClCompile Include="..\..\Compress\ShrinkDecoder.cpp" />
     <ClCompile Include="..\..\Compress\XpressDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
@@ -1016,8 +990,6 @@
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\Compress\ZDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\ZlibDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\ZlibEncoder.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
