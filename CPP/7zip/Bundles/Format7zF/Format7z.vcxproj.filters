@@ -152,33 +152,6 @@
     <ClCompile Include="..\..\Compress\DeltaFilter.cpp">
       <Filter>Compress\7z Compress</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Compress\Lzma2Decoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\Lzma2Encoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\Lzma2Register.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\LzmaDecoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\LzmaEncoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\LzmaRegister.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdDecoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdEncoder.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdRegister.cpp">
-      <Filter>Compress\7z Compress</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Compress\LzhDecoder.cpp">
       <Filter>Compress</Filter>
     </ClCompile>
@@ -464,9 +437,6 @@
     <ClCompile Include="..\..\Archive\LzhHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\LzmaHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Archive\MachoHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
@@ -504,9 +474,6 @@
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\VhdHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\XzHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Archive\ZHandler.cpp">
@@ -645,24 +612,6 @@
       <Filter>Compress\7z Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\CopyCoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\Lzma2Decoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\Lzma2Encoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\LzmaDecoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\LzmaEncoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\PpmdDecoder.h">
-      <Filter>Compress\7z Compress</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compress\PpmdEncoder.h">
       <Filter>Compress\7z Compress</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h">
@@ -900,9 +849,6 @@
       <Filter>Archive</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Archive\IArchive.h">
-      <Filter>Archive</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Archive\XzHandler.h">
       <Filter>Archive</Filter>
     </ClInclude>
     <ClInclude Include="..\..\ICoder.h">

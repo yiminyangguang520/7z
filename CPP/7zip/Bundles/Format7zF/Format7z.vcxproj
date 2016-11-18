@@ -826,7 +826,6 @@
     <ClCompile Include="..\..\Archive\HandlerCont.cpp" />
     <ClCompile Include="..\..\Archive\IhexHandler.cpp" />
     <ClCompile Include="..\..\Archive\LzhHandler.cpp" />
-    <ClCompile Include="..\..\Archive\LzmaHandler.cpp" />
     <ClCompile Include="..\..\Archive\MachoHandler.cpp" />
     <ClCompile Include="..\..\Archive\MbrHandler.cpp" />
     <ClCompile Include="..\..\Archive\MslzHandler.cpp" />
@@ -854,7 +853,6 @@
     <ClCompile Include="..\..\Archive\UefiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VdiHandler.cpp" />
     <ClCompile Include="..\..\Archive\VhdHandler.cpp" />
-    <ClCompile Include="..\..\Archive\XzHandler.cpp" />
     <ClCompile Include="..\..\Archive\ZHandler.cpp" />
     <ClCompile Include="..\..\Common\CreateCoder.cpp" />
     <ClCompile Include="..\..\Common\CWrappers.cpp" />
@@ -902,12 +900,6 @@
     <ClCompile Include="..\..\Compress\ImplodeDecoder.cpp" />
     <ClCompile Include="..\..\Compress\ImplodeHuffmanDecoder.cpp" />
     <ClCompile Include="..\..\Compress\LzhDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\Lzma2Decoder.cpp" />
-    <ClCompile Include="..\..\Compress\Lzma2Encoder.cpp" />
-    <ClCompile Include="..\..\Compress\Lzma2Register.cpp" />
-    <ClCompile Include="..\..\Compress\LzmaDecoder.cpp" />
-    <ClCompile Include="..\..\Compress\LzmaEncoder.cpp" />
-    <ClCompile Include="..\..\Compress\LzmaRegister.cpp" />
     <ClCompile Include="..\..\Compress\LzmsDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
@@ -925,23 +917,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdDecoder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdEncoder.cpp">
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
-      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MaxSpeed</Optimization>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\Compress\PpmdRegister.cpp" />
     <ClCompile Include="..\..\Compress\QuantumDecoder.cpp" />
     <ClCompile Include="..\..\Compress\XpressDecoder.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
@@ -1052,7 +1027,6 @@
     <ClInclude Include="..\..\Archive\Tar\TarItem.h" />
     <ClInclude Include="..\..\Archive\Tar\TarOut.h" />
     <ClInclude Include="..\..\Archive\Tar\TarUpdate.h" />
-    <ClInclude Include="..\..\Archive\XzHandler.h" />
     <ClInclude Include="..\..\Common\CreateCoder.h" />
     <ClInclude Include="..\..\Common\CWrappers.h" />
     <ClInclude Include="..\..\Common\FilterCoder.h" />
@@ -1084,14 +1058,8 @@
     <ClInclude Include="..\..\Compress\CopyCoder.h" />
     <ClInclude Include="..\..\Compress\HuffmanDecoder.h" />
     <ClInclude Include="..\..\Compress\LzhDecoder.h" />
-    <ClInclude Include="..\..\Compress\Lzma2Decoder.h" />
-    <ClInclude Include="..\..\Compress\Lzma2Encoder.h" />
-    <ClInclude Include="..\..\Compress\LzmaDecoder.h" />
-    <ClInclude Include="..\..\Compress\LzmaEncoder.h" />
     <ClInclude Include="..\..\Compress\LzmsDecoder.h" />
     <ClInclude Include="..\..\Compress\LzOutWindow.h" />
-    <ClInclude Include="..\..\Compress\PpmdDecoder.h" />
-    <ClInclude Include="..\..\Compress\PpmdEncoder.h" />
     <ClInclude Include="..\..\Compress\XpressDecoder.h" />
     <ClInclude Include="..\..\Compress\ZDecoder.h" />
     <ClInclude Include="..\..\ICoder.h" />
