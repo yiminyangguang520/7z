@@ -818,7 +818,6 @@
     <ClCompile Include="..\..\Archive\DllExports2.cpp" />
     <ClCompile Include="..\..\Archive\ElfHandler.cpp" />
     <ClCompile Include="..\..\Archive\ExtHandler.cpp" />
-    <ClCompile Include="..\..\Archive\FatHandler.cpp" />
     <ClCompile Include="..\..\Archive\FlvHandler.cpp" />
     <ClCompile Include="..\..\Archive\GptHandler.cpp" />
     <ClCompile Include="..\..\Archive\GzHandler.cpp" />
@@ -829,7 +828,6 @@
     <ClCompile Include="..\..\Archive\MslzHandler.cpp" />
     <ClCompile Include="..\..\Archive\MubHandler.cpp" />
     <ClCompile Include="..\..\Archive\PeHandler.cpp" />
-    <ClCompile Include="..\..\Archive\QcowHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandlerOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHeader.cpp" />
@@ -837,7 +835,6 @@
     <ClCompile Include="..\..\Archive\Tar\TarOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarRegister.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarUpdate.cpp" />
-    <ClCompile Include="..\..\Archive\VdiHandler.cpp" />
     <ClCompile Include="..\..\Common\CreateCoder.cpp" />
     <ClCompile Include="..\..\Common\CWrappers.cpp" />
     <ClCompile Include="..\..\Common\FilterCoder.cpp" />
