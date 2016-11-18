@@ -422,21 +422,6 @@
     <ClCompile Include="..\..\Archive\IhexHandler.cpp">
       <Filter>Archive</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Archive\MachoHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\MbrHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\MslzHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\MubHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Archive\PeHandler.cpp">
-      <Filter>Archive</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Windows\FileDir.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
