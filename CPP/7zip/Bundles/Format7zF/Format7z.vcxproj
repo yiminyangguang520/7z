@@ -818,11 +818,9 @@
     <ClCompile Include="..\..\Archive\DllExports2.cpp" />
     <ClCompile Include="..\..\Archive\ElfHandler.cpp" />
     <ClCompile Include="..\..\Archive\ExtHandler.cpp" />
-    <ClCompile Include="..\..\Archive\FlvHandler.cpp" />
     <ClCompile Include="..\..\Archive\GptHandler.cpp" />
     <ClCompile Include="..\..\Archive\GzHandler.cpp" />
     <ClCompile Include="..\..\Archive\HandlerCont.cpp" />
-    <ClCompile Include="..\..\Archive\IhexHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandler.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHandlerOut.cpp" />
     <ClCompile Include="..\..\Archive\Tar\TarHeader.cpp" />
