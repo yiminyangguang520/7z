@@ -306,12 +306,12 @@
     <CustomBuild Include="..\..\..\..\Asm\x86\AesOpt.asm">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml.exe -c -WX -W3 -Fo$(OutDir)%(Filename).obj %(FullPath)</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ml64.exe -Dx64 -c -WX -W3 -Fo$(OutDir)%(Filename).obj %(FullPath)</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)%(Filename).obj;%(Outputs)</Outputs>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml.exe -c -Fo$(OutDir)%(Filename).obj %(FullPath)</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ml64.exe -Dx64 -c -Fo$(OutDir)%(Filename).obj %(FullPath)</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\%(Filename).obj;%(Outputs)</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)%(Filename).obj;%(Outputs)</Outputs>
     </CustomBuild>
     <CustomBuild Include="..\..\Archive\Archive2.def" />
   </ItemGroup>
